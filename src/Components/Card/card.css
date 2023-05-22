@@ -1,0 +1,35 @@
+.card { 
+    flex: 1;
+    max-width: calc(50% - 5px);
+    min-width: calc(50% - 5px);
+    padding: 10px;
+    background: linear-gradient(90deg,blue 1%, rgb(0, 255, 60) 10%, rgb(68, 0, 255));
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.2s linear;
+}
+.card:hover {
+    box-shadow: 0 2px 4px 0 #ffffff;
+}
+
+.card_id, .card_name {
+    font-size: 20px;
+    margin: 0 20px;
+}
+.card_id {
+    color: rgb(255, 53, 53);
+}
+
+.card_img {
+    height: 70px;
+    flex: 1;
+}
+
+.card_name {
+    color: #c7c7c7;
+}
